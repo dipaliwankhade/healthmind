@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health of Mind</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <div class="social">
+             <a href="#"><i class='bx bxl-facebook'></i></a>
+             <a href="#"><i class='bx bxl-instagram'></i></a>
+<a href="#"><i class='bx bxl-twitter' ></i></a>
+
+            <a href="#" class="instagram"></a>
+        </div>
+        <a href="" class="text_logo"><h1>Health of Mind</h1></a>
+        <ul class="navigation">
+            <li><a href="">HOME</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <button class="toggle_btn"><img src="pic/Bar.png" height="50" alt="menu bar"></button>
+    </header>
+    <main>
+        <article>
+        <img src="../pic/MINDFULLNESS.png " height="50" alt="">
+        <div class="show_box">
+            <h1 class="show_title">Mental Health</h1>
+            <h2>Self care is self love</h2>
+            
+            <p>Be at peace. Do not disturb yourself. You never were in bondage, you never were virtuous or sinful. Get rid of all these delusions and be at peace<br>
+                </p>
+        <div class="action">
+            <a href="contact.html" class="contact">CONTACT</a>
+            <a href="read more.html" class="read_more">READ MORE</a>
+        </div>
+        </div>
+        <img src="../pic/GIRL.png"  alt="">
+    </article>
+</main>
+<script>
+    const btn = document.querySelector(".toggle_btn");
+    btn.addEventListener("click",() =>
+    document.querySelector(".navigation").classlist.toggle("active")
+    )
+    ;
+</script>
+</body>
+</html>
